@@ -1,0 +1,157 @@
+.basket_img{
+  width: 300px;
+  height: 250px;
+}
+
+.basket_btn{
+  background-color: #2FDB00;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 2px 16px;
+    font-size: 16px;
+    opacity: 1;
+    cursor: pointer;
+    &:hover{
+      background-color: #fff;
+      color: #2FDB00;
+    }
+}
+
+
+/* Varsayılan stiller */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cart {
+  margin-top: 2rem;
+}
+
+.basket_btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  margin-top: 1rem;
+}
+
+.product_btn {
+  background-color: #f8f9fa;
+  border: none;
+  color: #000;
+}
+
+.basket_img {
+  height: 80px !important;
+  width: 80px !important;
+}
+
+.prd-inc-desc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product_btn{
+  background-color: #38a169;
+  padding: 10px;
+}
+
+.product_btn_text{
+  margin-top:7px;
+  color: #38a169;
+}
+.product_btn {
+  background-color: #48bb78; 
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 1rem; 
+  border: none;
+  border-radius: 0.25rem; 
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+
+  &:hover {
+    background-color: #38a169; 
+    transform: scale(1.05); 
+  }
+}
+.total-price{
+  margin-left:5px;
+}
+.remove-product{
+  background-color: #e53e3e; // Red background
+  color: white; // White icon color
+  border: none;
+  border-radius: 50%; // Circular shape
+  width: 40px; // Set width
+  height: 40px; // Set height
+  display: flex; // Flexbox to center the icon
+  align-items: center; // Center vertically
+  justify-content: center; // Center horizontally
+  cursor: pointer; // Pointer cursor on hover
+  transition: background-color 0.3s, transform 0.3s; // Smooth transitions
+
+  &:hover {
+    background-color: #c53030; // Darker red on hover
+    transform: scale(1.1); // Slightly enlarge on hover
+  }
+
+  &::after {
+    content: '×'; // Using the multiplication symbol as the "X"
+    font-size: 1.5rem; // Adjust font size
+    font-weight: bold; // Bold font weight
+  }
+}
+/* Medya sorguları */
+
+/* Ekran boyutu 768px ve daha büyük */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .basket_img {
+    height: 150px;
+  }
+
+  .counter {
+    font-size: 1.5rem;
+  }
+}
+
+/* Ekran boyutu 992px ve daha büyük */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  .basket_img {
+    height: 200px;
+  }
+
+  .counter {
+    font-size: 2rem;
+  }
+}
