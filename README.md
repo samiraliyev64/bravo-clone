@@ -1,24 +1,3 @@
-# Screenshoot 1
-![Alt text](src/assets/image/ss(1).png)
-
-# Screenshoot 2
-![Alt text](src/assets/image/ss(2).png)
-
-# Screenshoot 3
-![Alt text](src/assets/image/ss(3).png)
-
-# Screenshoot 4
-![Alt text](src/assets/image/ss(4).png)
-
-# Screenshoot 5
-![Alt text](src/assets/image/ss(5).png)
-
-# Screenshoot 6
-![Alt text](src/assets/image/ss(6).png)
-
-# Screenshoot 7
-![Alt text](src/assets/image/ss(8).png)
-
 # Bravo Supermarket Clone - E-commerce Platform
 
 I built the modern and user-friendly Bravo Supermarket Clone e-commerce application with React.js.
